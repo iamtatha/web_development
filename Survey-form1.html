@@ -1,0 +1,101 @@
+<!--Survey Form Html Project-->
+<!--by Tathagata Dey-->
+<!--aka i_am_tatha-->
+<!--email: tathagata2403@gmail.com-->
+<!--Date & Time : 15.04.2020 at 15:16-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tatha's Survey Form</title>
+	<link rel="stylesheet" href="CSS/style survey form.css">
+</head>
+
+<body>
+	<header>
+		<h1>A Survey Form about a Product You Bought Recently</h1>
+		<h5>&copy; Flipkart Authority</h5>
+	<a style="color: rgba(120,180,100,1);" href="#form">Redirect to The Form</a>
+	<br>
+	<br>
+	<br>
+	</header>
+	<section>
+		<h3> Something About Us </h3>
+		<p>Flipkart Private Limited, d/b/a Flipkart is an Indian e-commerce company based in Bengaluru, India. It was founded by Sachin Bansal and Binny Bansal in 2007. The company initially focused on book sales, before expanding into other product categories such as consumer electronics, fashion, home essentials & groceries, and lifestyle products.The service competes primarily with Amazon's Indian subsidiary, and the domestic rival Snapdeal. </p>
+		<p> As of March 2017, Flipkart held a 39.5% market share of India's e-commerce industry. Flipkart is significantly dominant in the sale of apparel (a position that was bolstered by its acquisitions of Myntra and Jabong.com), and was described as being "neck and neck" with Amazon in the sale of electronics and mobile phones. Flipkart also owns PhonePe, a mobile payments service based on the Unified Payments Interface (UPI). </p>
+		<p> In August 2018, U.S.-based retail chain Walmart acquired a 77% controlling stake in Flipkart for US$16 billion, valuing it at $20 billion.</p>
+	<br>
+	<br>
+	</section>
+	<section>
+		<h3>You Wanna Visit Us?</h3>
+		<p> Ofcourse You Can, Just Visit the Link Below</p>
+		<a href="https://www.flipkart.com/">Flipkart At Your Service</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	</section>
+	<section>
+		<h4>Why We Need This Survey?</h4>
+		<p>Survey research is often used to assess thoughts, opinions, and feelings. Surveys can be specific and limited, or they can have more global, widespread goals. Psychologists and sociologists often use surveys to analyze behavior, while it is also used to meet the more pragmatic needs of the media, such as, in evaluating political candidates, public health officials, professional organizations, and advertising and marketing directors. Survey research has also been employed in various medical and surgical fields to gather information about healthcare personnel’s practice patterns and professional attitudes toward various clinical problems and diseases. Healthcare professionals that may be enrolled in survey studies in include physicians, nurses, and physical therapists among others. </p>
+		<p> A survey consists of a predetermined set of questions that is given to a sample. With a representative sample, that is, one that is representative of the larger population of interest, one can describe the attitudes of the population from which the sample was drawn. Further, one can compare the attitudes of different populations as well as look for changes in attitudes over time. A good sample selection is key as it allows one to generalize the findings from the sample to the population, which is the whole purpose of survey research.</p>
+		<br>
+		<br>
+		<br>
+		<br>
+	</section>
+	<section>
+		<h2>Here is The Form</h2>
+		<p> <a id="form"></a> </p>
+		<h5>Please Fill it up and Submit</h5>
+	</section>
+	<section>
+		<form style="background-color: rgba(1,100,1,0.13);">
+			<p>Enter Your Name &nbsp;&nbsp;
+				<input type="text" id="name_input" size="30"> </p>
+			<p>Enter Your Email &nbsp;&nbsp;
+				<input type="email" id="email_input"> </p>
+			<p>Enter Date of Birth &nbsp;
+				<input type="Date" id="dob"> </p>
+			<p>The Item You Bought Belonged to &nbsp;
+				<select>
+					<option value="Others">Others </option>
+					<option value="TVC">TV & Commercial Goods </option>
+					<option value="Electronics">Electronics Goods </option>
+					<option value="Men">For Men </option>
+					<option value="Women">For Women </option>
+					<option value="Baby">For Baby and Kids </option>
+					<option value="Home">Home and Furniture </option>
+					<option value="Sports">Sports, Books and More </option>
+				</select> </p>
+			<p>What is the Product You Bought &nbsp;
+				<input type="text" id="product" size=40> </p>
+			<p>Date of Purchase &nbsp;
+				<input type="date" id="date_of_Purchase"> </p>
+			<p>Are You Satisfied with Our Service? &nbsp;  </p>
+			<p> Yes
+				<input type="radio" id="service_yes"> </p>
+			<p> No
+				<input type="radio" id="service_no"> </p>
+
+			<p>How would you rate the product? &nbsp;
+				<input type="number" id="rate" min=0 max=10> </p>
+			<textarea rows="20" cols="70"> </textarea>
+			<br>
+			
+			<input type="checkbox" name="check">&nbsp;I would like to have future email notifications
+			<br>
+			<input type="checkbox" name="check">&nbsp;I would not like to have future email notifications
+			<input type="Submit" name="submit">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>	
+		</form>
+	</section>
+</body>
